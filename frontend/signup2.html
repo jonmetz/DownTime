@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>DownTime</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      
+    </style>
+    <!--<link href="css/bootstrap-responsive.css" rel="stylesheet"> -->
+    <link href="../style/downtime.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+   <body style="padding-top:41px; padding-bottom:0px">
+
+    <div class="navbar navbar-inverse navbar-fixed-top" style="width:100%;">
+      <div class="navbar-inner">
+        <div class="container" style="width:100%;">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" style="padding-left:40px" href="#">DownTime</a>
+          <div class="time">
+          <p class= "bar">|</p><p class="time" id="timer">00:00</p>
+        </div>
+          <div class="nav-collapse collapse">
+
+            <ul class="nav">
+              <ul class="nav">
+                <li class = "active">
+                <a href="#" class = "next-bar" onclick = "next()"><img src="img/next.png" onmouseover="this.src= 'img/next_hover.png'" onmouseout="this.src= 'img/next.png'" height="30px" width="40px"></a>
+              </li>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+<form class="form-horizontal" action='' method="POST" style="border: 1px solid #e5e5e5">
+  <fieldset>
+    <div id="legend">
+      <legend class="">Register</legend>
+    </div>
+    <div class="control-group">
+      <!-- Username -->
+      <!-- <label class="control-label"  for="username">Username</label> -->
+      <div class="controls">
+        <input type="text" id="username" name="username" placeholder="Username" class="input-xlarge">
+        <p class="help-block">Username can contain any letters or numbers, without spaces</p>
+      </div>
+    </div>
+ 
+    <div class="control-group">
+      <!-- E-mail -->
+      <!-- <label class="control-label" for="email">E-mail</label> -->
+      <div class="controls">
+        <input type="text" id="email" name="email" placeholder="Email" class="input-xlarge">
+        <p class="help-block">Please provide your E-mail</p>
+      </div>
+    </div>
+ 
+    <div class="control-group">
+      <!-- Password-->
+      <!-- <label class="control-label" for="password">Password</label> -->
+      <div class="controls">
+        <input type="password" id="password" name="password" placeholder="Password" class="input-xlarge">
+        <p class="help-block">Password should be at least 4 characters</p>
+      </div>
+    </div>
+ 
+    <div class="control-group">
+      <!-- Password -->
+     <!--  <label class="control-label"  for="password_confirm">Password (Confirm)</label> -->
+      <div class="controls">
+        <input type="password" id="password_confirm" name="password_confirm" placeholder="Confirm password" class="input-xlarge">
+        <p class="help-block">Please confirm password</p>
+      </div>
+    </div>
+ 
+    <div class="control-group">
+      <!-- Button -->
+      <div class="controls">
+        <button class="btn btn-success">Register</button>
+      </div>
+    </div>
+  </fieldset>
+</form>

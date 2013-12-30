@@ -1,0 +1,42 @@
+****************************************************************
+Here's a list of API's that look useful 
+and promising -- implement. 
+****************************************************************
+APIS:
+Reuters -- http://www.programmableweb.com/api/reuters-spotlight
+NYTimes Newswire -- http://developer.nytimes.com/docs/times_newswire_api
+
+****************************************************************
+Categories which we're going to use to organize content
+****************************************************************
+Categories:
+Arts
+Sports
+Tech 
+Entertainment 
+Finance
+World 
+
+
+Reddit:
+arts
+sports
+technology
+_________
+finance
+worldnews
+
+
+
+NYTimes: 
+Arts
+_________
+Technology
+Style
+Business
+World 
+
+
+Youtube:
+
+
