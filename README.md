@@ -1,6 +1,6 @@
 # This is our [HackPrinceton](http://hackprinceton.com/) project: *[DownTime](http://www.hackerleague.org/hackathons/hackprinceton-fall-2013/hacks/downtime)*.
 
-See ```[AUTHORS.md](https://github.com/jonmetz/DownTime/blob/master/AUTHORS.md)``` for a list of all the members of the downtime team.
+See [AUTHORS.md](https://github.com/jonmetz/DownTime/blob/master/AUTHORS.md) for a list of all the members of the downtime team.
 
 A new git repository had to be created for the code because the initial repository became unmanageable due to duplicate commits and extremely large object, as well as API keys.
 
